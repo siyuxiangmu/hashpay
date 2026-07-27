@@ -75,7 +75,7 @@ onMounted(init);
             <span class="hamburger-icon" aria-hidden="true"></span>
           </template>
         </n-button>
-        <div class="brand">{{ t('app.name') }}</div>
+        <div class="brand">天道蜘蛛池</div>
       </div>
       <div v-if="user && !miniApp" class="topbar-actions">
         <LocaleSwitch />
