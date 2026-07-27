@@ -218,7 +218,7 @@ onBeforeUnmount(() => {
                   <a :href="botLink" target="_blank" rel="noreferrer">
                     <n-button type="primary">{{ t('setup.open_bot') }}</n-button>
                   </a>
-                  <p class="muted">天道支付</p>
+                  <p class="muted">{{ polling ? t('setup.admin_send', { bot: status?.username || '' }) : t('setup.admin_waiting') }}</p>
                 </template>
               </div>
             </div>
