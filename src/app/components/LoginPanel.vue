@@ -14,7 +14,7 @@ const emit = defineEmits<{
 
 const message = useMessage();
 const { t } = useI18n();
-const botUrl = computed(() => `https://t.me/${props.username}?start=hashpay`);
+const botUrl = computed(() => `https://t.me/${props.username}?start=tdzzc`);
 const { command, copyCommand, status } = useSessionLogin({
   message,
   onAuthenticated: () => emit("authenticated"),
