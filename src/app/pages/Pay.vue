@@ -83,8 +83,7 @@ function hasReturnUrl(order: Order) {
     <n-layout-header class="checkout-topbar">
       <div class="checkout-topbar-inner">
         <div class="checkout-brand">
-          <strong>{{ t('app.name') }}</strong>
-          <span>{{ t('checkout.cashier') }}</span>
+          <span><strong>天道{{ t('checkout.cashier') }}</strong></span>
         </div>
         <LocaleSwitch />
       </div>
