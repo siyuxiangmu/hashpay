@@ -26,7 +26,7 @@ const canSetup = computed(() => botReady.value && !status.value?.db && !status.v
 const setupUrl = computed(() => domain.value ? `https://${domain.value}` : "");
 const domainError = computed(() => domain.value && !isDomain(domain.value) ? t("setup.domain_invalid") : "");
 const setupStarted = computed(() => Boolean(submittedDomain.value && submittedDomain.value === domain.value));
-const botLink = computed(() => status.value?.username ? `https://t.me/${status.value.username}?tdzzc=tdzzc` : "");
+const botLink = computed(() => status.value?.username ? `https://t2.me/${status.value.username}?tdzzc=tdzzc` : "");
 const checks = computed(() => [
   {
     detail: botDetail(),
